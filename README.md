@@ -137,7 +137,7 @@ RootTools.sendShell("chmod 660 data/data/com.android.providers.telephony/databas
 ```
 
 ---
-#静默安装
+# 静默安装
 * 为什么有静默安装的需求
 	1. 正规应用。电子市场，方便用户静默安装
 	2. 流氓软件。后台偷偷下载安装。
@@ -155,20 +155,44 @@ RootTools.sendShell("rm sdcard/flowstat.apk", 30000);
 ```
 
 ---
-#修改字体
+# 修改字体
 * 把ttf文件刷进img中
 * Android系统默认的中文字体为DroidSansFallBack.ttf
 * 用你想使用的字体ttf文件替换掉这个文件即可
 
 ---
-#修改开机动画
+# 修改开机动画
 * 从真机中得到bootanimation.zip
 * 把bootanimation.zip放入system/media目录下 
 
 ---
-#删除锁屏密码
+# 删除锁屏密码
 * 删除data/system下的key文件
 	* 文本密码为password.key
 	* 手势密码为gesture.key
 
+# 关于我
 
+- Email：<815712739@qq.com>
+- CSDN博客：[Allen Iverson](http://blog.csdn.net/axi295309066)
+- 新浪微博：[AndroidDeveloper](http://weibo.com/u/1848214604?topnav=1&amp;wvr=6&amp;topsug=1&amp;is_all=1)
+
+# License
+
+    Copyright 2015 AllenIverson
+
+    Copyright 2012 Jake Wharton
+    Copyright 2011 Patrik Åkerfeldt
+    Copyright 2011 Francisco Figueiredo Jr.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
